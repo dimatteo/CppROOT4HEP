@@ -36,16 +36,16 @@ You will know that you are all set when you are able to open a terminal, type in
 the word "root" followed by the key "enter" (or "return") and see a message like
 this appearing:
 
-*******************************************
-*                                         *
-*        W E L C O M E  to  R O O T       *
-*                                         *
-*   Version   5.32/00   2 December 2011   *
-*                                         *
-*  You are welcome to visit our Web site  *
-*          http://root.cern.ch            *
-*                                         *
-*******************************************
+    *******************************************
+    *                                         *
+    *        W E L C O M E  to  R O O T       *
+    *                                         *
+    *   Version   5.32/00   2 December 2011   *
+    *                                         *
+    *  You are welcome to visit our Web site  *
+    *          http://root.cern.ch            *
+    *                                         *
+    *******************************************
 
 If you want to exit from the root console just type ".q" and press "enter" (or "return").
 
@@ -58,7 +58,7 @@ There are two ways of using ROOT:
 2) via a standard C++ compiler
 
 1) Is usually good for fast testing, short macros, cosmetics (make a nice plot).
-Unfortunately executing 1) is relatively slow.
+Unfortunately executing 1) is relatively slow.  
 2) Is better both from a code point of view (CINT allows for incredible stuff to happen
 without noticing until it is too late...) and performance wise.
 
@@ -85,7 +85,7 @@ as it is done in an usual C++ main program.
 contains two semi-identical macros, used to make a very simple repeated function 
 (a doubling operation) in two different ways:
 - using a function which takes a variable in input
-- using a function which takes in input a reference to a variable (address to that variable)
+- using a function which takes in input a reference to a variable (address to that variable).
 It is interesting to notice the different behavior of the two functions, which apparently
 are implementing the same operations. Try to think about the difference!
 
