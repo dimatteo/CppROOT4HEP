@@ -62,7 +62,7 @@ Unfortunately executing 1) is relatively slow.
 2) Is better both from a code point of view (CINT allows for incredible stuff to happen
 without noticing until it is too late...) and performance wise.
 
-**/Basics** 
+**/Basics**   
 contains two semi-identical macros, used to print simple variables on screen.
 To use them:
 
@@ -81,7 +81,7 @@ Chapter 3: ROOT macros calling functions
 As ROOT is written in C++, constructing and calling functions in a ROOT macro is done
 as it is done in an usual C++ main program.
 
-**/Functions** 
+**/Functions**   
 contains two semi-identical macros, used to make a very simple repeated function 
 (a doubling operation) in two different ways:
 - using a function which takes a variable in input
