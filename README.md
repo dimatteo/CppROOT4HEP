@@ -23,7 +23,7 @@ as our brain and time is filled with other appealing interests.
 So how do you code without having a proper formation?
 Well it would be easier if there was a huge information database which you could 
 access to for free and which would give you an answer in no time, wouldn't it?
-Surprise surprise : www.google.com
+Surprise surprise : www.google.com  
 That is the "G" rule, and that rule is going to help you forever.
 
 Chapter 1: ROOT Installation
@@ -85,7 +85,7 @@ as it is done in an usual C++ main program.
 contains two semi-identical macros, used to make a very simple repeated function 
 (a doubling operation) in two different ways:
 - using a function which takes a variable in input
-- using a function which takes in input a reference to a variable (address to that variable).
+- using a function which takes in input a reference to a variable (address to that variable).  
 It is interesting to notice the different behavior of the two functions, which apparently
 are implementing the same operations. Try to think about the difference!
 
